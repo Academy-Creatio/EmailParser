@@ -10,12 +10,12 @@
         {
           "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
           "ColumnName": "Name",
-          "Value": "Mekanik"
+          "Value": ""
         },
         {
           "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
           "ColumnName": "Description",
-          "Value": "bakım,arıza,onarım,fren,akü,ampül"
+          "Value": ""
         }
       ]
     },
@@ -29,12 +29,12 @@
         {
           "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
           "ColumnName": "Name",
-          "Value": "Lastik"
+          "Value": ""
         },
         {
           "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
           "ColumnName": "Description",
-          "Value": "lastik,kış lastiği,yaz lastiği"
+          "Value": ""
         }
       ]
     },
@@ -48,31 +48,12 @@
         {
           "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
           "ColumnName": "Name",
-          "Value": "Hasar"
+          "Value": ""
         },
         {
           "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
           "ColumnName": "Description",
-          "Value": "hasar,kaza,çarpma,çapışma,anlaşmalı tutanak,Zabıt"
-        }
-      ]
-    },
-    {
-      "Row": [
-        {
-          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
-          "ColumnName": "Id",
-          "Value": "eed56c18-8611-40a3-bd14-6bba89069006"
-        },
-        {
-          "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
-          "ColumnName": "Name",
-          "Value": "TEST"
-        },
-        {
-          "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
-          "ColumnName": "Description",
-          "Value": "посиланням"
+          "Value": ""
         }
       ]
     }

@@ -1,0 +1,16 @@
+﻿{
+  "Descriptor": {
+    "UId": "e8964cdc-b493-4f8e-ba7a-ffc93a9cb313",
+    "PackageVersion": "7.8.0",
+    "Name": "EmailParser",
+    "ModifiedOnUtc": "\/Date(1631774987000)\/",
+    "Maintainer": "Customer",
+    "DependsOn": [
+      {
+        "UId": "c3887e9c-ceb4-497a-8efb-e174aa1bf5c4",
+        "PackageVersion": "7.8.0",
+        "Name": "SLM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmailParser.API</name>
+    </assembly>
+    <members>
+        <member name="T:EmailParser.API.IEmailModel">
+            <summary>
+            Represents Email from db
+            </summary>
+        </member>
+        <member name="P:EmailParser.API.IEmailModel.IsHtmlBody">
+            <value>True if body of the email is in HTML</value>
+        </member>
+        <member name="P:EmailParser.API.IEmailModel.Title">
+            <value>Email Subject</value>
+        </member>
+        <member name="P:EmailParser.API.IEmailModel.Body">
+            <value>Email Body</value>
+        </member>
+        <member name="P:EmailParser.API.IEmailModel.Preview">
+            <value>HTML Sanitized text</value>
+        </member>
+        <member name="T:EmailParser.API.IParser">
+            <summary>
+            An email parser abstraction
+            <example>
+            Parser Instantiation <b>REQUIRES</b> constructor
+            <code>
+            ConstructorArgument ucArg = new ConstructorArgument("userConnection", UserConnection);
+            Terrasoft.Core.Factories.ClassFactory.Get&lt;IParser&gt;("Academy", ucArg);
+            </code>
+            </example>
+            </summary>
+        </member>
+        <member name="M:EmailParser.API.IParser.TryGetGroup(System.Guid,System.Guid@)">
+            <summary>
+            Gets SysAdminUnitId given an email.
+            <example>
+            Usage
+            <code>
+            if(parser.TryGetGroup(id, out Guid SysAdminUnitId))
+            {
+                ... your code here
+            }
+            </code>
+            </example>
+            </summary>
+            <param name="activityId">Id of an activity that is email</param>
+            <param name="SysAdminUnitId">Id of a org-group</param>
+            <returns>True if SysAdminUnit is found, otherwise false</returns>
+        </member>
+    </members>
+</doc>

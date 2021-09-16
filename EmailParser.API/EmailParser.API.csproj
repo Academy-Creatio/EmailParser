@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\inetpub\wwwroot\service\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\EmailParser.API\EmailParser.API.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy $(TargetPath) $(SolutionDir)\Assemblies\$(ProjectName) /S /Y&#xD;&#xA;xcopy $(TargetDir)\$(ProjectName).pdb $(SolutionDir)\Assemblies\$(ProjectName) /S /Y&#xD;&#xA;xcopy $(TargetDir)\$(ProjectName).xml $(SolutionDir)\Assemblies\$(ProjectName) /S /Y&#xD;&#xA;" />
+  </Target>
+
+</Project>

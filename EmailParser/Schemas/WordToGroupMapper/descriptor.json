@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "1e91ecbd-ab79-4d95-869c-7d75524c615b",
+    "Name": "WordToGroupMapper",
+    "ModifiedOnUtc": "\/Date(1631724796000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "WordToGroupMapper"
+  }
+}
